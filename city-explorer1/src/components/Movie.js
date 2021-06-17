@@ -10,16 +10,12 @@ export class Movie extends Component {
 
                 {this.props.movieData.map((value) => {
                     return (
-                        <Card border="info" style={{ width: '35rem' }} bg={'light'} text={'primary'}      >
+                        <Card border="light" style={{ width: '50rem' }}     >
                             <Card.Text>
                                 Movie Title: " {value.title}"
                             </Card.Text>
-                            <Card.Text>
-                               Average votes: " {value.average_votes}"
-                            </Card.Text>
-                            <Card.Text>
-                            Total votes: " {value.total_votes}"
-                            </Card.Text>
+                          
+                          
                         </Card>
                     )
                 })

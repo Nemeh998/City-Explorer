@@ -10,7 +10,7 @@ export class FormDisplay extends Component {
     render() {
         return (
             <div>
-                <Card style={{ width: '38rem' }}>
+                <Card style={{ width: '50rem' }}>
                     <Form onSubmit={this.props.getData}>
                         <Form.Group className="mb-3" controlId="formBasicEmail" 	 >
                             <Form.Label>City Name</Form.Label>
